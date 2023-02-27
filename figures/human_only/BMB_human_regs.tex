@@ -29,21 +29,20 @@
 	
 	There are four categories of response
 	\begin{enumerate}
-		\item Opinions, thoughts and feelings
-		\item Problems and negative experiences
-		\item Benefits and positive experiences
-		\item Actions to improve the relationship (i.e. things the government could do to improve things) 
+		\item A: Opinions, thoughts and feelings
+		\item B: Problems and negative experiences
+		\item C: Benefits and positive experiences
+		\item D: Actions to improve the relationship (i.e. things the government could do to improve things) 
 	\end{enumerate}
-	There is also an overall code for the whole interview as general positive, negative or neutral. 
+	There are also overall codes for whether a subject is referring to strict direct experience, broad direct experience or hearsay. 
 	\\~\\
-	To do: separate out interviews into sections by question:
-	\begin{enumerate}
-		\item What words would you use to describe refugees/hosts? 
-		\item Describe positive experience
-		\item Describe negative experience
-		\item How can govt help?
-	\end{enumerate}
-	
+	We have separated the interviews into A, B, C and D sections but unfortunately, there are a lot of codes in the ``wrong" sections. As we can see in Figure \ref{fig:sparsity_codes}, while A codes appear in Section A more than other sections, they don't only appear in Section A. We therefore probably need to predict each code for the whole interview, not just the corresponding Section. 
+	\begin{figure}[H]
+		\centering
+		\caption{Prevalence of codes across sections} 
+		\label{fig:sparsity_codes}
+		\includegraphics[width=  0.5 \linewidth]{sparsity_codes_sections}
+	\end{figure}
 
 \section{Correlation matrices}
 
@@ -78,6 +77,11 @@
 \section{What explains the B and C codes?}
 
 \input{regs/B1_no_benefits.tex} \input{regs/B2_specific_pos_event.tex} \input{regs/B3_financial_help.tex} \input{regs/B4_more_jobs.tex} \input{regs/B5_reduced_rent.tex} \input{regs/B6_provided_shelter.tex} \input{regs/B7_provided_food.tex} \input{regs/C1_no_problems.tex} \input{regs/C2_fear_concern.tex} \input{regs/C4_increased_prices.tex} \input{regs/C5_security_concern.tex} \input{regs/C6_reduced_land.tex} \input{regs/C7_reduced_wages.tex} \input{regs/C8_reduced_jobs.tex} \input{regs/C9_perceive_lack_morals.tex} \input{regs/C10_movement_restrictions.tex} \input{regs/C11_need_pay_rent.tex} \input{regs/C13_reduced_resources.tex} \input{regs/C14_enviro_harm.tex} \input{regs/C15_increased_supervis.tex} \input{regs/C16_quarrel_dispute.tex} \input{regs/C17_overcrowded.tex} 
+
+
+\section{What explains the D codes?}
+
+\input{regs/D1_no_actions.tex} \input{regs/D2_vague_action.tex} \input{regs/D3_social_harmony.tex} \input{regs/D4_allocate_resources.tex} \input{regs/D5_leave_evacuate.tex} \input{regs/D6_govt_knows_better.tex} \input{regs/D7_does_not_know.tex} \input{regs/D8_remain_disciplined.tex} \input{regs/D9_stronger_boundary.tex} \input{regs/D10_econ_integrat.tex} \input{regs/D11_sources_of_info.tex} \input{regs/D12_more_interact.tex} \input{regs/D13_increased_mobility.tex} 
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.17)  27 FEB 2023 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.17)  27 FEB 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,6 +395,45 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `BMB_human_regs.aux'.
 
@@ -512,29 +551,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `BMB_human_regs.toc'.
 
+<sparsity_codes_sections.pdf, id=30, 361.35pt x 216.81pt>
+File: sparsity_codes_sections.pdf Graphic file (type pdf)
+<use sparsity_codes_sections.pdf>
+Package pdftex.def Info: sparsity_codes_sections.pdf  used on input line 44.
+(pdftex.def)             Requested size: 299.92006pt x 179.95224pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 37--45
 
  []
 
 [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<cormat_whole.pdf, id=43, 1300.86pt x 867.24pt>
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./spars
+ity_codes_sections.pdf>]
+<cormat_whole.pdf, id=52, 1300.86pt x 867.24pt>
 File: cormat_whole.pdf Graphic file (type pdf)
 <use cormat_whole.pdf>
-Package pdftex.def Info: cormat_whole.pdf  used on input line 55.
+Package pdftex.def Info: cormat_whole.pdf  used on input line 54.
 (pdftex.def)             Requested size: 780.51512pt x 520.34802pt.
-<cormat_section.pdf, id=44, 1300.86pt x 867.24pt>
+<cormat_section.pdf, id=53, 1300.86pt x 867.24pt>
 File: cormat_section.pdf Graphic file (type pdf)
 <use cormat_section.pdf>
-Package pdftex.def Info: cormat_section.pdf  used on input line 62.
+Package pdftex.def Info: cormat_section.pdf  used on input line 61.
 (pdftex.def)             Requested size: 780.51512pt x 520.34802pt.
+ [2
 
-[2
-
- <./cormat_whole.pdf>] [3 <./cormat_section.pdf>] (./regs/A1_no_opinion.tex)
-(./regs/A2_no_opinion_lack_exposure.tex [4
+ <./cormat_whole.pdf>] [3 <./cormat_section.pdf>]
+(./regs/A1_no_opinion.tex) (./regs/A2_no_opinion_lack_exposure.tex [4
 
 ]
 Overfull \vbox (0.60759pt too high) has occurred while \output is active []
@@ -557,26 +601,35 @@ Overfull \vbox (0.60759pt too high) has occurred while \output is active []
 [25]) (./regs/C11_need_pay_rent.tex) (./regs/C13_reduced_resources.tex [26])
 (./regs/C14_enviro_harm.tex) (./regs/C15_increased_supervis.tex [27])
 (./regs/C16_quarrel_dispute.tex) (./regs/C17_overcrowded.tex [28])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
- [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+(./regs/D1_no_actions.tex) (./regs/D2_vague_action.tex [29] [30]
+Overfull \vbox (1.47249pt too high) has occurred while \output is active []
 
-(./BMB_human_regs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+
+[31]) (./regs/D3_social_harmony.tex) (./regs/D4_allocate_resources.tex [32])
+(./regs/D5_leave_evacuate.tex [33]) (./regs/D6_govt_knows_better.tex [34])
+(./regs/D7_does_not_know.tex [35]) (./regs/D8_remain_disciplined.tex [36])
+(./regs/D9_stronger_boundary.tex [37]) (./regs/D10_econ_integrat.tex [38])
+(./regs/D11_sources_of_info.tex [39]) (./regs/D12_more_interact.tex [40])
+(./regs/D13_increased_mobility.tex [41]) [42]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+ [43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+ (./BMB_human_regs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `BMB_human_regs.out' has not changed.
-(rerunfilecheck)             Checksum: 5E20D469BC706C61C3F2E3090BEE4440;225.
+(rerunfilecheck)             Checksum: 022E6D7ECBF25BB90FE82DCA7948BA78;286.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
  ) 
 Here is how much of TeX's memory you used:
- 8034 strings out of 492616
- 120154 string characters out of 6129480
- 319000 words of memory out of 5000000
- 11684 multiletter control sequences out of 15000+600000
+ 8105 strings out of 492616
+ 121636 string characters out of 6129480
+ 319073 words of memory out of 5000000
+ 11690 multiletter control sequences out of 15000+600000
  10491 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,9n,39p,947b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -589,10 +642,10 @@ local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on BMB_human_regs.pdf (29 pages, 269737 bytes).
+Output written on BMB_human_regs.pdf (43 pages, 344962 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

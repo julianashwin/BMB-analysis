@@ -2,3 +2,4 @@
 \contentsline {section}{\numberline {2}Correlation matrices}{1}{section.2}% 
 \contentsline {section}{\numberline {3}What explains the A codes?}{5}{section.3}% 
 \contentsline {section}{\numberline {4}What explains the B and C codes?}{19}{section.4}% 
+\contentsline {section}{\numberline {5}What explains the D codes?}{31}{section.5}% 
