@@ -1,0 +1,86 @@
+\documentclass[]{article}
+\usepackage[headheight=0.1in,margin=0.1in]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[round]{natbib}
+\usepackage{lscape}
+
+%opening
+\title{BMB first look }
+\author{Julian Ashwin}
+
+\begin{document}
+	
+	\maketitle
+	
+	
+	\tableofcontents
+	
+	
+	
+	\section{Summary}
+	
+	
+	There are four categories of response
+	\begin{enumerate}
+		\item Opinions, thoughts and feelings
+		\item Problems and negative experiences
+		\item Benefits and positive experiences
+		\item Actions to improve the relationship (i.e. things the government could do to improve things) 
+	\end{enumerate}
+	There is also an overall code for the whole interview as general positive, negative or neutral. 
+	\\~\\
+	To do: separate out interviews into sections by question:
+	\begin{enumerate}
+		\item What words would you use to describe refugees/hosts? 
+		\item Describe positive experience
+		\item Describe negative experience
+		\item How can govt help?
+	\end{enumerate}
+	
+
+\section{Correlation matrices}
+
+\begin{landscape}
+	\begin{figure}[H]
+		\centering
+		\caption{Correlation matrix at whole interview level} 
+		\label{fig:cormat_whole}
+		\includegraphics[width=  \linewidth]{cormat_whole}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\caption{Correlation matrix and Section level} 
+		\label{fig:cormat_sec}
+		\includegraphics[width= \linewidth]{cormat_section}
+	\end{figure}
+
+
+\end{landscape}
+
+
+
+
+\section{What explains the A codes?}
+
+\input{regs/A1_no_opinion.tex} \input{regs/A2_no_opinion_lack_exposure.tex} \input{regs/A3_humans_are_equal.tex} \input{regs/A4_extended_help.tex} \input{regs/A7_grateful_to_god.tex} \input{regs/A8_express_gratitude.tex} \input{regs/A9_prejudice.tex} \input{regs/A10_suspicion.tex} \input{regs/A11_bitter_contempt.tex} \input{regs/A12_lack_of_interest.tex} \input{regs/A13_empathy_sympathy.tex} \input{regs/A14_aid.tex} \input{regs/A15_compliments.tex} \input{regs/A16_religious_fraternity.tex} 
+
+
+	
+
+\section{What explains the B and C codes?}
+
+\input{regs/B1_no_benefits.tex} \input{regs/B2_specific_pos_event.tex} \input{regs/B3_financial_help.tex} \input{regs/B4_more_jobs.tex} \input{regs/B5_reduced_rent.tex} \input{regs/B6_provided_shelter.tex} \input{regs/B7_provided_food.tex} \input{regs/C1_no_problems.tex} \input{regs/C2_fear_concern.tex} \input{regs/C4_increased_prices.tex} \input{regs/C5_security_concern.tex} \input{regs/C6_reduced_land.tex} \input{regs/C7_reduced_wages.tex} \input{regs/C8_reduced_jobs.tex} \input{regs/C9_perceive_lack_morals.tex} \input{regs/C10_movement_restrictions.tex} \input{regs/C11_need_pay_rent.tex} \input{regs/C13_reduced_resources.tex} \input{regs/C14_enviro_harm.tex} \input{regs/C15_increased_supervis.tex} \input{regs/C16_quarrel_dispute.tex} \input{regs/C17_overcrowded.tex} 
+
+
+
+
+	
+\end{document}

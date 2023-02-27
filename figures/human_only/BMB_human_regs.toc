@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Summary}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Correlation matrices}{1}{section.2}% 
+\contentsline {section}{\numberline {3}What explains the A codes?}{5}{section.3}% 
+\contentsline {section}{\numberline {4}What explains the B and C codes?}{19}{section.4}% 
